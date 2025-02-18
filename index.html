@@ -8,6 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- ---------------------Flat-icons-------------------- -->
+   
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+
 <!-- --------------------Tailwind----------------------- -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -30,7 +35,31 @@
         }
     </style>
 </head>
-<body>
-  
+<body class="font-manrope">
+  <main class="max-w-screen-xl mx-auto px-16">
+    <!-- -----------------------Banner--------------------------- -->
+    <header class="flex pt-10 mb-20">
+      <!-- -----------------text-content---------------- -->
+      <div>
+        <h1 class="text-5xl md:text-7xl font-bold">It's good <br>
+          tea time at The <br> Tea House</h1><br>
+        <p class="text-[#777777] w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p><br>
+        <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] w-52 h-16 rounded-xl text-white font-bold">Explore More <i class="fi fi-br-arrow-up-right ml-1"></i> </button>
+      </div>
+      <!-- ----------------image content----------------- -->
+       <div class="ml-16">
+        <img class="w-full" src="images/banner.png" alt="">
+
+        <div class="flex items-center  bg-white shadow-lg p-3 rounded-xl w-60 h-24  -mt-20 relative ml-12 justify-center">
+          <div><i class="fi fi-ss-star text-[#FFC850] text-3xl"></i></div>
+          <div class="ml-2">
+          <h6 class="font-extrabold text-3xl">5.00</h6>
+          <p>Trust Pilot Ratings</p>
+          </div>
+        </div>
+       </div>
+    
+    </header>
+  </main>
 </body>
 </html>
